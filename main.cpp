@@ -20,6 +20,8 @@ int main() {
     a.showInfo();*/
 
     Pharm anc("ANC");
+    anc.addMedicine(Medicine("Cinramon", "pills", 25.30));
+    anc.sort_by_price();
 
     anc.showInfo();
 
