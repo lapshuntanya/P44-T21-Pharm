@@ -38,3 +38,11 @@ void Pharm::showInfo() const {
         cout << endl;
     }
 }
+
+void Pharm::addMedicine(Medicine obj) {
+
+}
+
+void Pharm::sort_by_price() {
+
+}

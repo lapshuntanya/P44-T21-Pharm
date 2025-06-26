@@ -1,7 +1,7 @@
 #include "Medicine.h"
-
+#include "Pharm.h"
 int main() {
-    Medicine a("Aspiryn", "pills", 20.99);
+    /*Medicine a("Aspiryn", "pills", 20.99);
     a.showInfo();
     cout << endl;
 
@@ -17,6 +17,11 @@ int main() {
     a = c; //Operator =
 
     c.showInfo();
-    a.showInfo();
+    a.showInfo();*/
+
+    Pharm anc("ANC");
+
+    anc.showInfo();
+
     return 0;
 }

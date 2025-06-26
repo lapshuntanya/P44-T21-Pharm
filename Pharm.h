@@ -18,6 +18,9 @@ public:
     ~Pharm();
 
     void showInfo()const;
+
+    void addMedicine(Medicine obj);
+    void sort_by_price();
 };
 
 
