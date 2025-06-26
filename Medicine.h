@@ -25,7 +25,7 @@ public:
 
     const char* getTitle()const;
     const char* getType()const;
-    float getPrice()const;
+    float getPrice()const ;
 
     void showInfo()const;
 };
