@@ -6,13 +6,17 @@ int main() {
     cout << endl;
 
     cout << "----------------------\n";
-    Medicine b = a;
+    Medicine b = a; //Copy constructor
     b.setTitle("Aspiryn Forte");
     b.showInfo();
 
-
     a.showInfo();
+    cout << "----------------------\n";
+    Medicine c("Nurofen", "syrope", 200.99);
 
+    a = c; //Operator =
 
+    c.showInfo();
+    a.showInfo();
     return 0;
 }
