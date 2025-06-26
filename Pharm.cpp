@@ -3,3 +3,19 @@
 //
 
 #include "Pharm.h"
+
+Pharm::Pharm() {
+
+}
+
+Pharm::Pharm(const char *name) {
+
+}
+
+Pharm::~Pharm() {
+
+}
+
+void Pharm::showInfo() const {
+
+}
