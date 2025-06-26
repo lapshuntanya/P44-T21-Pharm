@@ -74,3 +74,19 @@ void Medicine::showInfo() const {
     cout << "Type:  " << m_type << endl;
     cout << "Price: " << m_price << "UAH" << endl;
 }
+
+Medicine::Medicine(const Medicine &obj) {
+    //  Medicine b = a;  =>    this = obj
+
+    int size_title = strlen(obj.m_title) + 1;
+    this->m_title = new char[size_title];
+    //strcpy_s(this->m_title, size_title, obj.m_title);
+    strcpy(this->m_title, obj.m_title);
+
+    int size_type = strlen(obj.m_type) + 1;
+    this->m_type = new char[size_type];
+    //strcpy_s(this->m_type, size_type, obj.m_type);
+    strcpy(this->m_type, obj.m_type);
+
+    this->m_price = obj.m_price;
+}

@@ -1,6 +1,18 @@
-#include <iostream>
+#include "Medicine.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Medicine a("Aspiryn", "pills", 20.99);
+    a.showInfo();
+    cout << endl;
+
+    cout << "----------------------\n";
+    Medicine b = a;
+    b.setTitle("Aspiryn Forte");
+    b.showInfo();
+
+
+    a.showInfo();
+
+
     return 0;
 }
