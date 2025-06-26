@@ -58,6 +58,12 @@ build CMakeFiles/P44_T21_Pharm.dir/Medicine.cpp.o: CXX_COMPILER__P44_T21_Pharm_D
   OBJECT_DIR = CMakeFiles/P44_T21_Pharm.dir
   OBJECT_FILE_DIR = CMakeFiles/P44_T21_Pharm.dir
 
+build CMakeFiles/P44_T21_Pharm.dir/Pharm.cpp.o: CXX_COMPILER__P44_T21_Pharm_Debug /Users/lapshuntetiana/CLionProjects/P44-T21-Pharm/Pharm.cpp || cmake_object_order_depends_target_P44_T21_Pharm
+  DEP_FILE = CMakeFiles/P44_T21_Pharm.dir/Pharm.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/P44_T21_Pharm.dir
+  OBJECT_FILE_DIR = CMakeFiles/P44_T21_Pharm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target P44_T21_Pharm
@@ -66,7 +72,7 @@ build CMakeFiles/P44_T21_Pharm.dir/Medicine.cpp.o: CXX_COMPILER__P44_T21_Pharm_D
 #############################################
 # Link the executable P44_T21_Pharm
 
-build P44_T21_Pharm: CXX_EXECUTABLE_LINKER__P44_T21_Pharm_Debug CMakeFiles/P44_T21_Pharm.dir/main.cpp.o CMakeFiles/P44_T21_Pharm.dir/Medicine.cpp.o
+build P44_T21_Pharm: CXX_EXECUTABLE_LINKER__P44_T21_Pharm_Debug CMakeFiles/P44_T21_Pharm.dir/main.cpp.o CMakeFiles/P44_T21_Pharm.dir/Medicine.cpp.o CMakeFiles/P44_T21_Pharm.dir/Pharm.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
   OBJECT_DIR = CMakeFiles/P44_T21_Pharm.dir
   POST_BUILD = :
